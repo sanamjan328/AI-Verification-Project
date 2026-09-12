@@ -1,7 +1,6 @@
 # Verification Pipeline (simulation + reference implementation)
 
-End-to-end simulation of a clinical AI verification service, matching the GNOSIS
-AI Platform & Integration Engineer scope:
+End-to-end simulation of a clinical AI verification service, matching the Engineer scope:
 
     source clinical data -> AI-generated/processed record -> verification
       -> hallucination/error detection -> quality score -> human/clinical decision
