@@ -1,5 +1,5 @@
 """
-GNOSIS pipeline — Stage 5: quality score + evaluation + anomaly/outlier detection.
+AI Verification pipeline — Stage 5: quality score + evaluation + anomaly/outlier detection.
 
 Three things live here:
 

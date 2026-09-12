@@ -1,5 +1,5 @@
 """
-Load the MedHallu benchmark (UTAustin-AIHealth/MedHallu) for GNOSIS.
+Load the MedHallu benchmark (UTAustin-AIHealth/MedHallu).
 
 MedHallu is 10,000 PubMedQA-derived medical QA pairs. Each row has a ground-truth
 answer and a paired hallucinated answer, plus difficulty (easy/medium/hard) and a
@@ -191,7 +191,7 @@ def to_binary_pairs(df: pd.DataFrame) -> pd.DataFrame:
     """
     Expand each MedHallu row into two labelled answers (accurate vs hallucinated).
 
-    The Hub dump stores both answers on one row. GNOSIS-style detection eval
+    The Hub dump stores both answers on one row. Detection eval
     wants one answer per row with a binary gold label.
     """
     df = df.reset_index(drop=True)
@@ -253,7 +253,7 @@ def to_cases(
     seed: int = 7,
 ) -> list[Case]:
     """
-    Map MedHallu binary pairs onto GNOSIS `Case` objects.
+    Map MedHallu binary pairs onto `Case` objects.
 
     Source facts = sentences of the gold answer (the analogue of a source
     clinical record). AI facts = sentences of the candidate answer (gold copy

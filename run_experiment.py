@@ -1,5 +1,5 @@
 """
-GNOSIS pipeline — Stage 6 (human/clinical decision) + full orchestration.
+AI Verification pipeline — Stage 6 (human/clinical decision) + full orchestration.
 
 Runs the end-to-end experiment on the simulated dataset and writes results/plots
 that the research paper reports on:

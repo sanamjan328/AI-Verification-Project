@@ -1,5 +1,5 @@
 """
-GNOSIS pipeline — append-only, hash-chained "sealed ledger".
+AI Verification pipeline — append-only, hash-chained "sealed ledger".
 
 Every case that flows through the pipeline emits one event: source hash,
 AI-record hash, detector verdicts, quality score, and the human/clinical

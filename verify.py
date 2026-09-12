@@ -1,5 +1,5 @@
 """
-GNOSIS pipeline — Stages 3 & 4: verification + hallucination/error detection.
+AI Verification pipeline — Stages 3 & 4: verification + hallucination/error detection.
 
 Verification: each atomic fact in the AI record is checked against the source
 record (the "reference"). This is the reference-based / claim-verification

@@ -1,5 +1,5 @@
 """
-GNOSIS pipeline — Stages 1 & 2: source clinical data + AI-generated/processed record.
+AI Verification pipeline — Stages 1 & 2: source clinical data + AI-generated/processed record.
 
 We simulate a clinical verification workload. Each unit of work is a "case":
 a source clinical record (structured facts) is passed to a (simulated) AI engine

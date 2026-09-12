@@ -1,5 +1,5 @@
 """
-GNOSIS pipeline — model/data drift detection.
+AI Verification pipeline — model/data drift detection.
 
 Compares a reference window (early, trusted production data) against a current
 window using two standard distribution-shift tests:
