@@ -19,6 +19,6 @@ End-to-end simulation of a clinical AI verification service, matching the Engine
 ## Run
 ```
 pip install -r requirements.txt
-python -m gnosis_pipeline.run_experiment
+python -m AI_pipeline.run_experiment
 ```
 Outputs (CSV, plots, summary.json) are written to `outputs/`.
